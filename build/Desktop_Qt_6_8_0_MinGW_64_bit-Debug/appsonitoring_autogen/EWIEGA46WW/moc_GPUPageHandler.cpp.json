@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "GPUPageHandler",
+            "lineNumber": 9,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "gpuModel",
+                    "notify": "gpuModelChanged",
+                    "read": "gpuModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "gpuUsage",
+                    "notify": "gpuUsageChanged",
+                    "read": "gpuUsage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "GPUPageHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "gpuModelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "gpuUsageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "fetchGPUInfo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "fetchGPUUsage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        },
+                        {
+                            "name": "exitStatus",
+                            "type": "QProcess::ExitStatus"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "onFetchFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GPUPageHandler.h",
+    "outputRevision": 68
+}

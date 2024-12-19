@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.0/mingw_64/qml
+--resource
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_sonitoring.qrc
+--resource
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appsonitoring_raw_qml_0.qrc
+C:/Users/sanja/Documents/sonitoring/Main.qml
+C:/Users/sanja/Documents/sonitoring/HomePage.qml
+C:/Users/sanja/Documents/sonitoring/CPUPage.qml
+C:/Users/sanja/Documents/sonitoring/RAMPage.qml
+C:/Users/sanja/Documents/sonitoring/GPUPage.qml

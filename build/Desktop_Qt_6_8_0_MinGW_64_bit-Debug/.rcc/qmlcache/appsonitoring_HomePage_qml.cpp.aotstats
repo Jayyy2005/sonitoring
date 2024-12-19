@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 429,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 364,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 36
+                    }
+                ],
+                "filepath": "C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/HomePage.qml"
+            }
+        ],
+        "moduleId": "sonitoring(appsonitoring)"
+    }
+]

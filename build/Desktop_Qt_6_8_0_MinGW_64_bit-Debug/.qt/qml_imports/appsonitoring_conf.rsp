@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/sanja/Documents/sonitoring
+-cmake-output
+-output-file
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/qml_imports/appsonitoring_conf.cmake
+-importPath
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/sonitoring
+-importPath
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.0/mingw_64/qml
+-qrcFiles
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_sonitoring.qrc
+C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appsonitoring_raw_qml_0.qrc

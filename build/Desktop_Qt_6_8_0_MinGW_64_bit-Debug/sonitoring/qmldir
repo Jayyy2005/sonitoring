@@ -1,0 +1,9 @@
+module sonitoring
+typeinfo appsonitoring.qmltypes
+prefer :/qt/qml/sonitoring/
+Main 1.0 Main.qml
+HomePage 1.0 HomePage.qml
+CPUPage 1.0 CPUPage.qml
+RAMPage 1.0 RAMPage.qml
+GPUPage 1.0 GPUPage.qml
+

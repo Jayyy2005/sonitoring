@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- Include QML files -->
+        <file>HomePage.qml</file>
+        <file>CPUPage.qml</file>
+        <file>RAMPage.qml</file>
+        <file>GPUPage.qml</file>
+        <file>Main.qml</file>
+
+        <!-- Include other resources if you have images or other assets -->
+        <!-- <file>images/logo.png</file> -->
+    </qresource>
+</RCC>

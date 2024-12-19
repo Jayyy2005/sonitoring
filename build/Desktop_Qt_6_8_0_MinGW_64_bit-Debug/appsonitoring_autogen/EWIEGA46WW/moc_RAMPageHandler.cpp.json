@@ -1,0 +1,62 @@
+{
+    "classes": [
+        {
+            "className": "RAMPageHandler",
+            "lineNumber": 9,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "totalMemory",
+                    "notify": "totalMemoryChanged",
+                    "read": "totalMemory",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "ramUsage",
+                    "notify": "ramUsageChanged",
+                    "read": "ramUsage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "RAMPageHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "totalMemoryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "ramUsageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "RAMPageHandler.h",
+    "outputRevision": 68
+}
