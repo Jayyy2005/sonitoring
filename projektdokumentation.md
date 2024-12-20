@@ -33,14 +33,16 @@
 
 | AP-№ | Zuständig | Beschreibung                            | Geplante Zeit | Frist        |
 | ---- | --------- | --------------------------------------- | ------------- | ------------ |
-| 0.0  | Raviraj   | Projektantrag erstellen  | 1 Stunde     | 08.11.2024   |
-| 1.A  | Raviraj   | Projektdokumentation erstellen     | 1 Stunde     | 08.11.2024  |
-| 2.A  | Raviraj   | Qt für Visual Studio installieren         | 1 Stunde    | 08.11.2024   |
-| 2.B  | Raviraj   | C++ Grundlagen recherchieren | 1 Stunde | 08.11.2024   |
-| 3.A  | Raviraj   | Speicherfunktion erstellen | 2 Stunden | 13.09.2024   |
-| 3.B  | Raviraj   | Info Icon erstellen         | 2 Stunden     | 20.09.2024   |
-| 4.A  | Raviraj   | Mahara Portfolio erstellen        | 4 Stunden    | 27.09.2024   |
-| 4.B  | Raviraj   | Projektdokumentation        | 4 Stunden    | 01.11.2024   |
+| 0.0  | Raviraj   | Projektantrag erstellen  | 2 Stunden    | 08.11.2024   |
+| 1.A  | Raviraj   | Projektdokumentation erstellen     | 2 Stunden     | 08.11.2024  |
+| 2.A  | Raviraj   | Qt für Visual Studio installieren         | 2 Stunden    | 15.11.2024   |
+| 2.B  | Raviraj   | C++ und Qt Grundlagen recherchieren | 2 Stunden | 15.11.2024   |
+| 3.A  | Raviraj   | CPU Überwachung implementieren | 4 Stunden | 22.11.2024   |
+| 3.B  | Raviraj   | GPU Überwachung implementieren         | 4 Stunden     | 29.11.2024   |
+| 3.C  | Raviraj   | RAM Überwachung implementieren         | 4 Stunden     | 06.12.2024   |
+| 3.D  | Raviraj   | Programm optimieren und Fehlerbehebung implementieren         | 4 Stunden     | 13.12.2024   |
+| 4.A  | Raviraj   | Mahara Portfolio erstellen        | 3 Stunden    | 20.12.2024   |
+| 4.B  | Raviraj   | Projektdokumentation abschliessen        | 1 Stunde    | 20.12.2024   |
 
 ## 3 Entscheiden
 
@@ -55,14 +57,16 @@ Keine
 
 | AP-№ | Zuständig | Geplante Zeit | Tatsächliche Zeit | Datum      |
 | ---- | --------- | ------------- | ----------------- | ---------- |
-| 0.0  | Raviraj   | 4 Stunden      | 3 Stunden         | 16.08.2024 |
-| 1.A  | Raviraj   | 4 Stunden      | 5 Stunden      | 23.08.2024 |
-| 2.A  | Raviraj   | 4 Stunden      | 4 Stunden         | 30.08.2024 |
-| 2.B  | Raviraj   | 4 Stunden      | 4 Stunden        | 06.09.2024 |
-| 3.A  | Raviraj   | 2 Stunden      | 2 Stunden         | 13.09.2024 |
-| 3.B  | Raviraj   | 2 Stunden     | 2 Stunden        | 20.09.2024 |
-| 4.A  | Raviraj   | 4 Stunden      | 4 Stunden         | 27.09.2024 |
-| 4.B  | Raviraj   | 4 Stunden      | 4 Stunden         | 01.11.2024 |
+| 0.0  | Raviraj   | 2 Stunden      | 2 Stunden         | 08.11.2024 |
+| 1.A  | Raviraj   | 2 Stunden      | 2 Stunden      | 08.11.2024 |
+| 2.A  | Raviraj   | 2 Stunden      | 4 Stunden         | 15.11.2024 |
+| 2.B  | Raviraj   | 2 Stunden      | 2 Stunden        | 15.11.2024 |
+| 3.A  | Raviraj   | 4 Stunden      | 8 Stunden         | 29.11.2024 |
+| 3.B  | Raviraj   | 4 Stunden     | 5 Stunden        | 06.12.2024 |
+| 3.C  | Raviraj   | 4 Stunden     | 5 Stunden        | 06.12.2024 |
+| 3.D  | Raviraj   | 4 Stunden     | 3 Stunden        | 13.12.2024 |
+| 4.A  | Raviraj   | 3 Stunden      | 3 Stunden         | 20.12.2024 |
+| 4.B  | Raviraj   | 1 Stunde      | 1 Stunde        | 20.12.2024 |
 
 ## 5 Kontrollieren
 
@@ -70,16 +74,16 @@ Keine
 
 | Testfall-№ | Resultat | Tester  | Datum     |
 | -----------| ---------| --------| ----------|
-| 0.1        | OK       | Raviraj | 01.11.2024|
-| 0.2        | OK       | Raviraj | 01.11.2024|
-| 1.1        | OK       | Raviraj | 01.11.2024|
-| 2.1        | OK       | Raviraj | 01.11.2024|
-| 2.2        | OK       | Raviraj | 01.11.2024|
-| 3.1        | OK       | Raviraj | 01.11.2024|
-| 3.2        | OK       | Raviraj | 01.11.2024|
-| 3.3        | OK       | Raviraj | 01.11.2024|
-| 4.1        | OK       | Raviraj | 01.11.2024|
-| 5.1        | OK       | Raviraj | 01.11.2024|
+| 0.1        | OK       | Raviraj | 20.12.2024|
+| 0.2        | OK       | Raviraj | 20.12.2024|
+| 1.1        | OK       | Raviraj | 20.12.2024|
+| 2.1        | OK       | Raviraj | 20.12.2024|
+| 2.2        | OK       | Raviraj | 20.12.2024|
+| 3.1        | OK       | Raviraj | 20.12.2024|
+| 3.2        | OK       | Raviraj | 20.12.2024|
+| 3.3        | OK       | Raviraj | 20.12.2024|
+| 4.1        | OK       | Raviraj | 20.12.2024|
+| 5.1        | OK       | Raviraj | 20.12.2024|
 
 ## Mahara-Link
-https://portfolio.bbbaden.ch/view/view.php?t=71946df6824f374ee0c3
+https://portfolio.bbbaden.ch/view/view.php?t=7764d993722db1f018ee
