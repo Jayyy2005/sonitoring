@@ -35,52 +35,19 @@ float RAMPageHandler::ramUsage() const
 
 void RAMPageHandler::fetchRAMInfo()
 {
-    // Plattform-spezifische Logik für die Gesamt-RAM-Informationen verwenden
-#ifdef Q_OS_WIN
+    // Logik für die Gesamt-RAM-Informationen verwenden
     QProcess *process = new QProcess(this);
     connect(process, &QProcess::finished, this, &RAMPageHandler::onFetchFinished);
     process->start("wmic", QStringList() << "memorychip" << "get" << "capacity");
-#elif defined(Q_OS_UNIX)
-    QFile memInfo("/proc/meminfo");
-    if (!memInfo.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qWarning() << "Fehler beim Öffnen der /proc/meminfo-Datei";
-        return;
-    }
-    QString totalLine = memInfo.readLine();
-    QStringList parts = totalLine.split(" ", Qt::SkipEmptyParts);
-    if (parts.size() >= 2) {
-        qulonglong kbMemory = parts[1].toULongLong();
-        m_totalMemory = QString::number(kbMemory / (1024 * 1024)) + " GB";
-    }
-#endif
 }
 
 void RAMPageHandler::fetchRAMUsage()
 {
     // Tatsächliche RAM-Nutzungsprozentsätze ermitteln
-#ifdef Q_OS_WIN
     MEMORYSTATUSEX memStatus;
     memStatus.dwLength = sizeof(memStatus);
     GlobalMemoryStatusEx(&memStatus); // Ruft den Status des Arbeitsspeichers ab
     m_ramUsage = static_cast<float>(memStatus.dwMemoryLoad); // Verwendeter RAM in Prozent
-#elif defined(Q_OS_UNIX)
-    QFile memInfo("/proc/meminfo");
-    if (memInfo.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qulonglong total = 0, free = 0, buffers = 0, cached = 0;
-        QTextStream in(&memInfo);
-        // Liest die ersten vier Zeilen für benötigte Informationen
-        for (int i = 0; i < 4; ++i) {
-            QStringList parts = in.readLine().split(" ", Qt::SkipEmptyParts);
-            if (i == 0) total = parts[1].toULongLong();
-            if (i == 1) free = parts[1].toULongLong();
-            if (i == 2) buffers = parts[1].toULongLong();
-            if (i == 3) cached = parts[1].toULongLong();
-        }
-        // Berechnet den benutzten RAM (Gesamt - frei - Buffers - Cached)
-        qulonglong used = total - free - buffers - cached;
-        m_ramUsage = 100.0f * static_cast<float>(used) / total; // RAM-Nutzung in Prozent
-    }
-#endif
     emit ramUsageChanged(); // Aktualisierte RAM-Nutzung an die UI senden
 }
 
