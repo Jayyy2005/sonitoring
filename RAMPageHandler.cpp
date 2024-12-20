@@ -60,7 +60,16 @@ void RAMPageHandler::onFetchFinished(int exitCode, QProcess::ExitStatus exitStat
         QString output = process->readAllStandardOutput().trimmed();
         QStringList lines = output.split("\n", Qt::SkipEmptyParts);
         if (lines.size() > 1) {
-            m_totalMemory = lines[1].trimmed();
+            qint64 totalMemoryBytes = 0;
+            for (int i = 1; i < lines.size(); ++i) {
+                bool ok;
+                qint64 capacity = lines[i].trimmed().toLongLong(&ok);
+                if (ok) {
+                    totalMemoryBytes += capacity;
+                }
+            }
+            // Umwandlung von Bytes in Gigabyte (1 GB = 1024 * 1024 * 1024 Bytes)
+            m_totalMemory = QString::number(totalMemoryBytes / (1024 * 1024 * 1024)) + " GB";
         } else {
             m_totalMemory = "Unbekannter RAM";
         }
@@ -68,3 +77,5 @@ void RAMPageHandler::onFetchFinished(int exitCode, QProcess::ExitStatus exitStat
     emit totalMemoryChanged(); // Benachrichtige UI über die Änderung der Gesamt-RAM-Informationen
     process->deleteLater();
 }
+
+

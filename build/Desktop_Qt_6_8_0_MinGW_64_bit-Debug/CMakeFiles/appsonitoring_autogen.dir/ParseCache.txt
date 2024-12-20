@@ -1184,5 +1184,5 @@ C:/Users/sanja/Documents/sonitoring/RAMPageHandler.h
  mdp:C:/Users/sanja/Documents/sonitoring/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appsonitoring_autogen/moc_predefs.h
 C:/Users/sanja/Documents/sonitoring/CPUPageHandler.cpp
 C:/Users/sanja/Documents/sonitoring/GPUPageHandler.cpp
-C:/Users/sanja/Documents/sonitoring/main.cpp
 C:/Users/sanja/Documents/sonitoring/RAMPageHandler.cpp
+C:/Users/sanja/Documents/sonitoring/main.cpp

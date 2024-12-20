@@ -131,7 +131,7 @@ ApplicationWindow {
                         color: "#C0392B"  // Dunkelroter Hintergrund für den Schliessen-Button
                     }
                     contentItem: Text {
-                        text: "Close"
+                        text: "Beenden"
                         color: "#E0E0E0"
                         anchors.centerIn: parent
                         width: parent.width
