@@ -44,7 +44,7 @@
 
 ## 3 Entscheiden
 
-Keine
+Ich habe entschieden, auf die Implementierung zur Überwachung der Festplatte zu verzichten, da sie zu aufwendig ist und ich viel Zeit verliere.
 
 ## Use Case Diagramm
 
